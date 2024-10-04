@@ -20,6 +20,7 @@ def calculate_function(function_str, x) -> str:
 def iteraction(function_str, a, b, e) -> str:
     expected_error = eval(e)
     xi = 0
+    total_iteraction = 0
 
     while True:
         fa = calculate_function(function_str, a)
@@ -36,10 +37,15 @@ def iteraction(function_str, a, b, e) -> str:
         else:
             a = xi
 
-        if expected_error < abs(b-a):
-            break
+        total_iteraction += 1
 
-    return (f'A raíz é {xi}.')
+        if expected_error > abs(b-a):
+            break
+    
+    if total_iteraction == 1:  
+        return (f'A raíz é {xi}. Foi necessária {total_iteraction} iteração.')
+    
+    return (f'A raíz é {xi}. Foram necessárias {total_iteraction} iterações.')
 
 
 #======================================================================================
