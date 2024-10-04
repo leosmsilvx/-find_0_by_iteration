@@ -21,7 +21,7 @@ def iteraction(function_str, a, b, e) -> str:
     expected_error = eval(e)
     xi = 0
 
-    while expected_error < abs(b-a):
+    while True:
         fa = calculate_function(function_str, a)
         fb = calculate_function(function_str, b)
 
@@ -35,6 +35,9 @@ def iteraction(function_str, a, b, e) -> str:
             b = xi
         else:
             a = xi
+
+        if expected_error < abs(b-a):
+            break
 
     return (f'A raíz é {xi}.')
 
