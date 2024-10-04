@@ -2,7 +2,7 @@
 This code was created to find the 0 of a function using the method of iteration.
 
 To run this code you need to run by the file "main". The Robocorp lib was used to facilitate running.
-# Automated tests for Content Hound's web app.
+# Project made for a undergraduate task, in the subject of Métodos Numéricos Computacionais (Computational Numerical Methods)
 
 ## Docs
 
