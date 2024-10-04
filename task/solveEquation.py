@@ -2,12 +2,6 @@ import math
 from robocorp.tasks import task
 import instructions
 
-@task
-def teste():
-    x = 1
-    result = eval('math.log(x)', {'x': x, 'math': math})
-    print(result)
-
 #======================================================================================
 #CALCULATE THE FUNCTION F(X)
 #======================================================================================
