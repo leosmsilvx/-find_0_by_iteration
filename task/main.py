@@ -1,6 +1,11 @@
 import solveEquation
-import instructions
+from robocorp.tasks import task
 
+#======================================================================================
+#RUN THE CODE
+#======================================================================================
+
+@task
 def main():
     solveEquation.inputs()
 

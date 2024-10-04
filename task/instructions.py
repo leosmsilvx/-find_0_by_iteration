@@ -1,3 +1,8 @@
+
+#======================================================================================
+#INSTRUCTIONS FOR THE FUNCTION F(X)
+#======================================================================================
+
 def show_instructions():
     print("### Instruções de Notação Matemática ###")
     print("Para usar funções matemáticas no Python, siga estas regras:")

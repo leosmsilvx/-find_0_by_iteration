@@ -2,11 +2,9 @@ import math
 from robocorp.tasks import task
 import instructions
 
-@task
-def teste():
-    result = eval('10**-3')
-    print(result)
-
+#======================================================================================
+#CALCULATE THE FUNCTION F(X)
+#======================================================================================
 
 def calculate_function(function_str, x) -> str:
     try:
@@ -14,6 +12,10 @@ def calculate_function(function_str, x) -> str:
         return result
     except Exception as error:
         return f"Erro ao calcular a função: {error}"
+
+#======================================================================================
+#RUN THE ITERACTION METHOD
+#======================================================================================
 
 def iteraction(function_str, a, b, e) -> str:
     expected_error = eval(e)
@@ -36,7 +38,10 @@ def iteraction(function_str, a, b, e) -> str:
 
     return (f'A raíz é {xi}.')
 
-    #result = calculate_function(function_str, a)
+
+#======================================================================================
+#DISPLAY THE INPUTS AND OUTPUTS FOR THE USER
+#======================================================================================
 
 @task
 def inputs() -> None:
