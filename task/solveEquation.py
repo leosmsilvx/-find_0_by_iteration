@@ -2,16 +2,24 @@ import math
 from robocorp.tasks import task
 import instructions
 
+@task
+def teste():
+    x = 1
+    result = eval('math.log(x)', {'x': x, 'math': math})
+    print(result)
+
 #======================================================================================
 #CALCULATE THE FUNCTION F(X)
 #======================================================================================
 
-def calculate_function(function_str, x) -> str:
+def calculate_function(function_str, x) -> float:
     try:
-        result = eval(function_str)
+        result = eval(function_str, {'x': x, 'math': math, 'sin': math.sin, 'cos': math.cos, 
+                                     'tan': math.tan, 'log': math.log, 'log10': math.log10, 
+                                     'sqrt': math.sqrt, 'abs': abs})
         return result
     except Exception as error:
-        return f"Erro ao calcular a função: {error}"
+        return (f"Erro ao calcular a função: {error}")
 
 #======================================================================================
 #RUN THE ITERACTION METHOD
@@ -25,6 +33,13 @@ def iteraction(function_str, a, b, e) -> str:
     while True:
         fa = calculate_function(function_str, a)
         fb = calculate_function(function_str, b)
+
+        if fa == 0:
+            xi = a
+            break
+        if fb == 0:
+            xi = b
+            break
 
         if(fa*fb) > 0:
             return (f'Não há uma raiz entre {a} e {b}')

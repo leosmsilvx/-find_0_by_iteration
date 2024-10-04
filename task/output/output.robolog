@@ -1,355 +1,345 @@
 V 0.0.4
-T 2024-10-04T15:51:51.262+00:00
-ID 1|9230313b-8268-11ef-8296-d03957b9491c
+T 2024-10-04T18:45:32.194+00:00
+ID 1|d58c494d-8280-11ef-a71c-d03957b9491c
 I "sys.platform=win32"
 I "python=3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]"
-M a:"main.py - main"
-SR a|0.015
+M a:"solveEquation.py - inputs"
+SR a|0.008
 M c:"Collect tasks"
 M d:"setup"
 M e:""
 P b:c|d|e|e|0
-ST b|0.015
+ST b|0.008
 M f:"regular"
-M g:"\nCollecting task main from: c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\main.py\n"
-C f|g|0.018
+M g:"\nCollecting task inputs from: c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\solveEquation.py\n"
+C f|g|0.009
 M h:"PASS"
-ET h|e|0.051
-M j:"main"
-M k:"c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\main.py"
-M l:null
-P i:j|j|k|l|9
-ST i|0.052
-M m:"================================ "
-C f|m|0.052
-M n:"Running: "
-C f|n|0.052
-M o:"task_name"
-C o|j|0.052
-M p:" =================================\n"
-C f|p|0.052
-M q:"METHOD"
-SE i|q|0.053
-M s:"inputs"
-M t:"solveEquation"
-M u:"C:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\solveEquation.py"
-P r:s|t|u|e|50
-SE r|q|0.053
-M w:"show_instructions"
-M x:"instructions"
-M y:"C:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\instructions.py"
-P v:w|x|y|e|6
-SE v|q|0.053
-M z:"stdout"
-M A:"### Instru\u00e7\u00f5es de Nota\u00e7\u00e3o Matem\u00e1tica ###"
-C z|A|0.053
-M B:"\n"
-C z|B|0.054
-M C:"Para usar fun\u00e7\u00f5es matem\u00e1ticas no Python, siga estas regras:"
-C z|C|0.054
-C z|B|0.054
-M D:"- Soma: +"
-C z|D|0.054
-C z|B|0.054
-M E:"- Subtra\u00e7\u00e3o: -"
-C z|E|0.054
-C z|B|0.055
-M F:"- Multiplica\u00e7\u00e3o: *"
-C z|F|0.055
-C z|B|0.055
-M G:"- Divis\u00e3o: /"
-C z|G|0.055
-C z|B|0.056
-M H:"- Exponencia\u00e7\u00e3o: **"
-C z|H|0.056
-C z|B|0.056
-M I:"- Raiz quadrada: sqrt()"
-C z|I|0.056
-C z|B|0.057
-M J:"- Seno: sin()"
-C z|J|0.057
-C z|B|0.057
-M K:"- Cosseno: cos()"
-C z|K|0.057
-C z|B|0.057
-M L:"- Tangente: tan()"
-C z|L|0.057
-C z|B|0.057
-M M:"- Logaritmo: log()"
-C z|M|0.057
-C z|B|0.057
+ET h|e|0.014
+M j:"inputs"
+M k:"solveEquation"
+M l:"c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\solveEquation.py"
+M m:null
+P i:j|k|l|m|71
+ST i|0.014
+M n:"=============================== "
+C f|n|0.014
+M o:"Running: "
+C f|o|0.014
+M p:"task_name"
+C p|j|0.014
+M q:" ================================\n"
+C f|q|0.014
+M r:"METHOD"
+SE i|r|0.015
+M t:"show_instructions"
+M u:"instructions"
+M v:"C:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\instructions.py"
+P s:t|u|v|e|6
+SE s|r|0.015
+M w:"stdout"
+M x:"### Instru\u00e7\u00f5es de Nota\u00e7\u00e3o Matem\u00e1tica ###"
+C w|x|0.015
+M y:"\n"
+C w|y|0.015
+M z:"Para usar fun\u00e7\u00f5es matem\u00e1ticas no Python, siga estas regras:"
+C w|z|0.016
+C w|y|0.016
+M A:"- Soma: +"
+C w|A|0.016
+C w|y|0.016
+M B:"- Subtra\u00e7\u00e3o: -"
+C w|B|0.017
+C w|y|0.017
+M C:"- Multiplica\u00e7\u00e3o: *"
+C w|C|0.017
+C w|y|0.017
+M D:"- Divis\u00e3o: /"
+C w|D|0.017
+C w|y|0.017
+M E:"- Exponencia\u00e7\u00e3o: ** (ou ^ que ser\u00e1 convertido)"
+C w|E|0.017
+C w|y|0.018
+M F:"- Exponencia\u00e7\u00e3o com expoente 3: x**3"
+C w|F|0.018
+C w|y|0.018
+M G:"- Raiz quadrada: sqrt() ou x**(1/2)"
+C w|G|0.018
+C w|y|0.018
+M H:"- Raiz c\u00fabica: x**(1/3)"
+C w|H|0.018
+C w|y|0.019
+M I:"- Seno: sin()"
+C w|I|0.019
+C w|y|0.019
+M J:"- Cosseno: cos()"
+C w|J|0.019
+C w|y|0.019
+M K:"- Tangente: tan()"
+C w|K|0.019
+C w|y|0.019
+M L:"- Logaritmo natural: log()"
+C w|L|0.019
+C w|y|0.019
+M M:"- Logaritmo base 10: log10()"
+C w|M|0.019
+C w|y|0.019
 M N:"- Valor absoluto: abs()"
-C z|N|0.057
-C z|B|0.058
+C w|N|0.02
+C w|y|0.02
 M O:"########################################\n"
-C z|O|0.058
-C z|B|0.058
-EE q|h|0.058
-P P:s|t|u|e|52
+C w|O|0.02
+C w|y|0.02
+EE r|h|0.02
+P P:j|k|l|e|73
 M Q:"function_str"
 M R:"str"
-M S:"'x'"
-AS P|Q|R|S|70.605
-P T:s|t|u|e|53
+M S:"'log(x)'"
+AS P|Q|R|S|11.098
+P T:j|k|l|e|74
 M U:"a"
 M V:"float"
-M W:"-1.0"
-AS T|U|V|W|73.397
-P X:s|t|u|e|54
+M W:"1.0"
+AS T|U|V|W|13.675
+P X:j|k|l|e|75
 M Y:"b"
-M Z:"1.0"
-AS X|Y|V|Z|74.907
-P 0:s|t|u|e|55
+M Z:"2.0"
+AS X|Y|V|Z|14.666
+P 0:j|k|l|e|76
 M 1:"e"
 M 2:"'10**-3'"
-AS 0|1|R|2|87.278
+AS 0|1|R|2|23.195
 M 4:"iteraction"
-P 3:4|t|u|e|20
-SE 3|q|87.278
+P 3:4|k|l|e|28
+SE 3|r|23.195
 EA Q|R|S
 EA U|V|W
 EA Y|V|Z
 EA 1|R|2
-P 5:4|t|u|e|21
+P 5:4|k|l|e|29
 M 6:"expected_error"
 M 7:"0.001"
-AS 5|6|V|7|87.278
-P 8:4|t|u|e|22
+AS 5|6|V|7|23.195
+P 8:4|k|l|e|30
 M 9:"xi"
 M aa:"int"
 M ab:"0"
-AS 8|9|aa|ab|87.278
-M ad:"while True"
-P ac:ad|t|u|e|24
-M ae:"WHILE"
-SE ac|ae|87.278
-M ag:"Step: while True"
-P af:ag|t|u|e|24
-M ah:"WHILE_STEP"
-SE af|ah|87.278
-M aj:"calculate_function"
-P ai:aj|t|u|e|9
-SE ai|q|87.278
+AS 8|9|aa|ab|23.196
+P ac:4|k|l|e|31
+M ad:"total_iteraction"
+AS ac|ad|aa|ab|23.196
+M af:"while True"
+P ae:af|k|l|e|33
+M ag:"WHILE"
+SE ae|ag|23.196
+M ai:"Step: while True"
+P ah:ai|k|l|e|33
+M aj:"WHILE_STEP"
+SE ah|aj|23.196
+M al:"calculate_function"
+P ak:al|k|l|e|15
+SE ak|r|23.196
 EA Q|R|S
-M ak:"x"
-EA ak|V|W
-P al:aj|t|u|e|11
-M am:"result"
-AS al|am|V|W|87.278
-P an:aj|t|u|e|12
-R an|V|W|87.278
-EE q|h|87.278
-P ao:4|t|u|e|25
-M ap:"fa"
-AS ao|ap|V|W|87.278
-SE ai|q|87.278
+M am:"x"
+EA am|V|W
+P an:al|k|l|e|17
+M ao:"result"
+M ap:"0.0"
+AS an|ao|V|ap|23.196
+P aq:al|k|l|e|20
+R aq|V|ap|23.196
+EE r|h|23.196
+P ar:4|k|l|e|34
+M as:"fa"
+AS ar|as|V|ap|23.196
+SE ak|r|23.196
 EA Q|R|S
-EA ak|V|Z
-AS al|am|V|Z|87.278
-R an|V|Z|87.278
-EE q|h|87.278
-P aq:4|t|u|e|26
-M ar:"fb"
-AS aq|ar|V|Z|87.278
-P as:4|t|u|e|31
-M at:"0.0"
-AS as|9|V|at|87.278
-SE ai|q|87.278
-EA Q|R|S
-EA ak|V|at
-AS al|am|V|at|87.278
-R an|V|at|87.278
-EE q|h|87.278
-P au:4|t|u|e|32
-M av:"fxi"
-AS au|av|V|at|87.278
-M ax:"else (to if fa * fxi < 0)"
-P aw:ax|t|u|e|34
-M ay:"ELSE_SCOPE"
-SE aw|ay|87.278
-EA ap|V|W
-EA av|V|at
-P az:4|t|u|e|37
-AS az|U|V|at|87.278
-EE ay|h|87.278
-M aB:"if expected_error < abs(b - a)"
-P aA:aB|t|u|e|39
-M aC:"IF_SCOPE"
-SE aA|aC|87.278
-EA 6|V|7
-P aD:4|t|u|e|40
-M aE:"BREAK"
-SE aD|aE|87.278
-EE aC|h|87.278
-EE ah|h|87.278
-EE ae|h|87.278
-P aF:4|t|u|e|42
-M aG:"'A ra\u00edz \u00e9 0.0.'"
-R aF|R|aG|87.278
-EE q|h|87.278
-P aH:s|t|u|e|57
-M aI:"final_result"
-AS aH|aI|R|aG|87.278
-M aJ:"A ra\u00edz \u00e9 0.0."
-C z|aJ|87.28
-C z|B|87.28
-EE q|h|87.28
-EE q|h|87.28
-C o|j|87.281
-M aK:" status: "
-C f|aK|87.281
-M aL:"PASS\n"
-C f|aL|87.282
-M aM:"================================================================================\n"
-C f|aM|87.282
-ET h|e|87.282
-M aO:"Teardown tasks"
-M aP:"teardown"
-P aN:aO|aP|e|e|0
-ST aN|87.282
-M aQ:"Process snapshot"
-SPS aQ|87.282
-M aR:"System information:\nMemory: Total: 9.8 G, Available: 989.5 M, Used: 90.2 %\nCPUs: 16"
-P aS:e|e|e|e|0
-L I|aR|aS|0|87.38
-M aT:"Current Process: python.exe (pid: 3440, status: running)\nCommand Line: C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m robocorp.tasks run c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\main.py -t main\nStarted: 12:51:50\nParent pid: 23856\nResident Set Size: 25.1 M\nVirtual Memory Size: 18.0 M"
-L I|aT|aS|0|87.398
-M aU:"MainThread|Thread ID: 6040 (non daemon)"
-STD aU|87.4
-M aV:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\__init__.py"
-M aW:"process_snapshot"
-M aX:"robo_logger.process_snapshot()"
-TBE aV|270|aW|aX
-M aY:"logger_instances"
-M aZ:"dict"
-M a0:"{<robocorp.log._robo_logger._RoboLogger object at 0x000002B5C10A52E0>: 1}"
+EA am|V|Z
+M at:"0.6931471805599453"
+AS an|ao|V|at|23.196
+R aq|V|at|23.196
+EE r|h|23.196
+P au:4|k|l|e|35
+M av:"fb"
+AS au|av|V|at|23.196
+M ax:"if fa == 0"
+P aw:ax|k|l|e|37
+M ay:"IF_SCOPE"
+SE aw|ay|23.196
+EA as|V|ap
+P az:4|k|l|e|38
+AS az|9|V|W|23.196
+P aA:4|k|l|e|39
+M aB:"BREAK"
+SE aA|aB|23.196
+EE ay|h|23.196
+EE aj|h|23.196
+EE ag|h|23.196
+P aC:4|k|l|e|63
+M aD:"'A ra\u00edz \u00e9 1.0. Foram necess\u00e1rias 0 itera\u00e7\u00f5es.'"
+R aC|R|aD|23.196
+EE r|h|23.196
+P aE:j|k|l|e|78
+M aF:"final_result"
+AS aE|aF|R|aD|23.196
+M aG:"A ra\u00edz \u00e9 1.0. Foram necess\u00e1rias 0 itera\u00e7\u00f5es."
+C w|aG|23.197
+C w|y|23.197
+EE r|h|23.197
+C p|j|23.199
+M aH:" status: "
+C f|aH|23.199
+M aI:"PASS\n"
+C f|aI|23.199
+M aJ:"================================================================================\n"
+C f|aJ|23.199
+ET h|e|23.2
+M aL:"Teardown tasks"
+M aM:"teardown"
+P aK:aL|aM|e|e|0
+ST aK|23.2
+M aN:"Process snapshot"
+SPS aN|23.2
+M aO:"System information:\nMemory: Total: 9.8 G, Available: 832.2 M, Used: 91.7 %\nCPUs: 16"
+P aP:e|e|e|e|0
+L I|aO|aP|0|23.235
+M aQ:"Current Process: python.exe (pid: 3784, status: running)\nCommand Line: C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m robocorp.tasks run c:\\Users\\THIAGO PEREIRA\\OneDrive\\Documentos\\\u00c1rea de Trabalho\\Faculdade\\M\u00e9todos Num\u00e9ricos - 4P\\Exerc\u00edcios\\-find_0_by_iteration\\task\\solveEquation.py -t inputs\nStarted: 15:45:31\nParent pid: 23532\nResident Set Size: 24.9 M\nVirtual Memory Size: 18.0 M"
+L I|aQ|aP|0|23.254
+M aR:"MainThread|Thread ID: 21248 (non daemon)"
+STD aR|23.254
+M aS:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\__init__.py"
+M aT:"process_snapshot"
+M aU:"robo_logger.process_snapshot()"
+TBE aS|270|aT|aU
+M aV:"logger_instances"
+M aW:"dict"
+M aX:"{<robocorp.log._robo_logger._RoboLogger object at 0x000001C31B5C52B0>: 1}"
+TBV aV|aW|aX
+M aY:"robo_logger"
+M aZ:"_RoboLogger"
+M a0:"<robocorp.log._robo_logger._RoboLogger object at 0x000001C31B5C52B0>"
 TBV aY|aZ|a0
-M a1:"robo_logger"
-M a2:"_RoboLogger"
-M a3:"<robocorp.log._robo_logger._RoboLogger object at 0x000002B5C10A52E0>"
-TBV a1|a2|a3
-M a4:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\_robo_logger.py"
-M a5:"new_func"
-M a6:"return func(self, *args, **kwargs)"
-TBE a4|20|a5|a6
-M a7:"self"
-TBV a7|a2|a3
-M a8:"args"
-M a9:"tuple"
-M ba:"()"
-TBV a8|a9|ba
-M bb:"kwargs"
-M bc:"{}"
-TBV bb|aZ|bc
-M bd:"func"
-M be:"function"
-M bf:"<function _RoboLogger.process_snapshot at 0x000002B5C10A3D80>"
-TBV bd|be|bf
-M bg:"return self._robot_output_impl.process_snapshot(hide_vars)"
-TBE a4|416|aW|bg
-TBV a7|a2|a3
-M bh:"hide_vars"
-M bi:"bool"
-M bj:"False"
-TBV bh|bi|bj
-M bk:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
-M bl:"self._dump_threads(hide_vars)"
-TBE bk|748|aW|bl
-M bm:"_RoboOutputImpl"
-M bn:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x000002B5C09F6C30>"
-TBV a7|bm|bn
-TBV bh|bi|bj
-M bo:"log"
-M bp:"module"
-M bq:"<module 'robocorp.log' from 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
-TBV bo|bp|bq
-M br:"entry_id"
-M bs:"'ps_0'"
-TBV br|R|bs
-M bt:"entry_type"
-M bu:"'process_snapshot'"
-TBV bt|R|bu
-M bv:"psutil"
-M bw:"<module 'psutil' from 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
-TBV bv|bp|bw
-M bx:"AccessDenied"
-M by:"type"
-M bz:"<class 'psutil.AccessDenied'>"
-TBV bx|by|bz
-M bA:"NoSuchProcess"
-M bB:"<class 'psutil.NoSuchProcess'>"
-TBV bA|by|bB
-M bC:"ZombieProcess"
-M bD:"<class 'psutil.ZombieProcess'>"
-TBV bC|by|bD
-M bE:"curr_process"
-M bF:"Process"
-M bG:"psutil.Process(pid=3440, name='python.exe', status='running', started='12:51:50')"
-TBV bE|bF|bG
-M bH:"log_info"
-M bI:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x000002B5C28B34C0>"
-TBV bH|be|bI
-M bJ:"memory_info"
-M bK:"'Total: 9.8 G, Available: 989.5 M, Used: 90.2 %'"
-TBV bJ|R|bK
-M bL:"child_i"
-TBV bL|aa|ab
-M bM:"child"
-TBV bM|bF|bG
-M bN:"name"
-M bO:"'python.exe'"
-TBV bN|R|bO
-M bP:"status"
-M bQ:"'running'"
-TBV bP|R|bQ
-M bR:"create_time"
-M bS:"'12:51:50'"
-TBV bR|R|bS
-M bT:"ppid"
-M bU:"'23856'"
-TBV bT|R|bU
-M bV:"cmdline"
-M bW:"'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe -m robocorp.tasks run c:\\\\Users\\\\THIAGO PEREIRA\\\\OneDrive\\\\Documentos\\\\\u00c1rea de Trabalho\\\\Faculdade\\\\M\u00e9todos Num\u00e9ricos - 4P\\\\Exerc\u00edcios\\\\-find_0_by_iteration\\\\task\\\\main.py -t main'"
-TBV bV|R|bW
-M bX:"rss"
-M bY:"'25.1 M'"
-TBV bX|R|bY
-M bZ:"vms"
-M b0:"'18.0 M'"
-TBV bZ|R|b0
-M b1:"proc_memory_info"
-M b2:"pmem"
-M b3:"pmem(rss=26324992, vms=18853888, num_page_faults=8219, peak_wset=26791936, wset=26324992, peak_paged_pool=148168, paged_pool=147992, peak_nonpaged_pool=14800, nonpaged_pool=14664, pagefile=18853888, peak_pagefile=19333120, private=18853888)"
-TBV b1|b2|b3
-M b4:"message"
-M b5:"'Current Process: python.exe (pid: 3440, status: running)\\nCommand Line: C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe -m robocorp.tasks run c:\\\\Users\\\\THIAGO PEREIRA\\\\OneDrive\\\\Documentos\\\\\u00c1rea de Trabalho\\\\Faculdade\\\\M\u00e9todos Num\u00e9ricos - 4P\\\\Exerc\u00edcios\\\\-find_0_by_iteration\\\\task\\\\main.py -t main\\nStarted: 12:51:50\\nParent pid: 23856\\nResident Set Size: 25.1 M\\nVirtual Memory Size: 18.0 M'"
-TBV b4|R|b5
-M b6:"_dump_threads"
-M b7:"stack.append((f, f.f_lineno))"
-TBE bk|769|b6|b7
-TBV a7|bm|bn
-TBV bh|bi|bj
-M b8:"thread_id"
-M b9:"6040"
-TBV b8|aa|b9
-M ca:"frame"
-M cb:"<frame at 0x000002B5C10AFEF0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
-TBV ca|ca|cb
-M cc:"thread"
-M cd:"_MainThread"
-M ce:"<_MainThread(MainThread, started 6040)>"
-TBV cc|cd|ce
-M cf:"title"
-M cg:"'MainThread|Thread ID: 6040 (non daemon)'"
-TBV cf|R|cg
-M ch:"f"
-M ci:"<frame at 0x000002B5C0D0D1E0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
-TBV ch|ca|ci
-M cj:"stack"
-M ck:"list"
-M cl:"[(<frame at 0x000002B5C28A05F0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x000002B5C28E04A0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x000002B5C102FC40, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x000002B5C0FCEB60, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x000002B5C10AFEF0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
-TBV cj|ck|cl
-ETD 87.458
-EPS 87.458
-ET h|e|87.458
-ER h|87.458
+M a1:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M a2:"new_func"
+M a3:"return func(self, *args, **kwargs)"
+TBE a1|20|a2|a3
+M a4:"self"
+TBV a4|aZ|a0
+M a5:"args"
+M a6:"tuple"
+M a7:"()"
+TBV a5|a6|a7
+M a8:"kwargs"
+M a9:"{}"
+TBV a8|aW|a9
+M ba:"func"
+M bb:"function"
+M bc:"<function _RoboLogger.process_snapshot at 0x000001C31B5C3D80>"
+TBV ba|bb|bc
+M bd:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE a1|416|aT|bd
+TBV a4|aZ|a0
+M be:"hide_vars"
+M bf:"bool"
+M bg:"False"
+TBV be|bf|bg
+M bh:"C:\\Users\\THIAGO PEREIRA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M bi:"self._dump_threads(hide_vars)"
+TBE bh|748|aT|bi
+M bj:"_RoboOutputImpl"
+M bk:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x000001C31B5C61B0>"
+TBV a4|bj|bk
+TBV be|bf|bg
+M bl:"log"
+M bm:"module"
+M bn:"<module 'robocorp.log' from 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
+TBV bl|bm|bn
+M bo:"entry_id"
+M bp:"'ps_0'"
+TBV bo|R|bp
+M bq:"entry_type"
+M br:"'process_snapshot'"
+TBV bq|R|br
+M bs:"psutil"
+M bt:"<module 'psutil' from 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV bs|bm|bt
+M bu:"AccessDenied"
+M bv:"type"
+M bw:"<class 'psutil.AccessDenied'>"
+TBV bu|bv|bw
+M bx:"NoSuchProcess"
+M by:"<class 'psutil.NoSuchProcess'>"
+TBV bx|bv|by
+M bz:"ZombieProcess"
+M bA:"<class 'psutil.ZombieProcess'>"
+TBV bz|bv|bA
+M bB:"curr_process"
+M bC:"Process"
+M bD:"psutil.Process(pid=3784, name='python.exe', status='running', started='15:45:31')"
+TBV bB|bC|bD
+M bE:"log_info"
+M bF:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x000001C31CDE5300>"
+TBV bE|bb|bF
+M bG:"memory_info"
+M bH:"'Total: 9.8 G, Available: 832.2 M, Used: 91.7 %'"
+TBV bG|R|bH
+M bI:"child_i"
+TBV bI|aa|ab
+M bJ:"child"
+TBV bJ|bC|bD
+M bK:"name"
+M bL:"'python.exe'"
+TBV bK|R|bL
+M bM:"status"
+M bN:"'running'"
+TBV bM|R|bN
+M bO:"create_time"
+M bP:"'15:45:31'"
+TBV bO|R|bP
+M bQ:"ppid"
+M bR:"'23532'"
+TBV bQ|R|bR
+M bS:"cmdline"
+M bT:"'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe -m robocorp.tasks run c:\\\\Users\\\\THIAGO PEREIRA\\\\OneDrive\\\\Documentos\\\\\u00c1rea de Trabalho\\\\Faculdade\\\\M\u00e9todos Num\u00e9ricos - 4P\\\\Exerc\u00edcios\\\\-find_0_by_iteration\\\\task\\\\solveEquation.py -t inputs'"
+TBV bS|R|bT
+M bU:"rss"
+M bV:"'24.9 M'"
+TBV bU|R|bV
+M bW:"vms"
+M bX:"'18.0 M'"
+TBV bW|R|bX
+M bY:"proc_memory_info"
+M bZ:"pmem"
+M b0:"pmem(rss=26079232, vms=18903040, num_page_faults=8160, peak_wset=26554368, wset=26079232, peak_paged_pool=148184, paged_pool=148008, peak_nonpaged_pool=14800, nonpaged_pool=14664, pagefile=18903040, peak_pagefile=19394560, private=18903040)"
+TBV bY|bZ|b0
+M b1:"message"
+M b2:"'Current Process: python.exe (pid: 3784, status: running)\\nCommand Line: C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe -m robocorp.tasks run c:\\\\Users\\\\THIAGO PEREIRA\\\\OneDrive\\\\Documentos\\\\\u00c1rea de Trabalho\\\\Faculdade\\\\M\u00e9todos Num\u00e9ricos - 4P\\\\Exerc\u00edcios\\\\-find_0_by_iteration\\\\task\\\\solveEquation.py -t inputs\\nStarted: 15:45:31\\nParent pid: 23532\\nResident Set Size: 24.9 M\\nVirtual Memory Size: 18.0 M'"
+TBV b1|R|b2
+M b3:"_dump_threads"
+M b4:"stack.append((f, f.f_lineno))"
+TBE bh|769|b3|b4
+TBV a4|bj|bk
+TBV be|bf|bg
+M b5:"thread_id"
+M b6:"21248"
+TBV b5|aa|b6
+M b7:"frame"
+M b8:"<frame at 0x000001C31B5CE240, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>"
+TBV b7|b7|b8
+M b9:"thread"
+M ca:"_MainThread"
+M cb:"<_MainThread(MainThread, started 21248)>"
+TBV b9|ca|cb
+M cc:"title"
+M cd:"'MainThread|Thread ID: 21248 (non daemon)'"
+TBV cc|R|cd
+M ce:"f"
+M cf:"<frame at 0x000001C31B198870, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
+TBV ce|b7|cf
+M cg:"stack"
+M ch:"list"
+M ci:"[(<frame at 0x000001C31CDC32A0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x000001C31B57F4C0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x000001C31B54F1C0, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x000001C31B4EE980, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x000001C31B5CE240, file 'C:\\\\Users\\\\THIAGO PEREIRA\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV cg|ch|ci
+ETD 23.266
+EPS 23.266
+ET h|e|23.266
+ER h|23.266
