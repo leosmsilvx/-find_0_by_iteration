@@ -15,6 +15,7 @@ To run this code you need to run by the file "main". The Robocorp lib was used t
 2º) Run the following comands:
 ```bash
   pip install -U robotframework
+  pip install -U PySimpleGUI
 ```
 
 3º) Install the vscode's extension: "Rocorp Code".

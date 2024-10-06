@@ -1,6 +1,7 @@
 import math
 from robocorp.tasks import task
 import instructions
+from PySimpleGUI import PySimpleGUI as sg
 
 #======================================================================================
 #CALCULATE THE FUNCTION F(X)
@@ -60,7 +61,7 @@ def iteraction(function_str, a, b, e) -> str:
 #======================================================================================
 #DISPLAY THE INPUTS AND OUTPUTS FOR THE USER
 #======================================================================================
-
+'''
 @task
 def inputs() -> None:
     instructions.show_instructions()
@@ -71,4 +72,30 @@ def inputs() -> None:
 
     final_result = iteraction(function_str, a, b, e)
 
-    print(final_result)
+    print(final_result)'''
+
+@task
+def interface():
+    sg.theme('Reddit')
+    layout = [
+        [sg.Text(instructions.text)],
+        [sg.Text('Entre com a função f(x):',size=(20,1)), sg.Input(key = 'function_str',size=(20,1))],
+        [sg.Text("Entre com o valor de a: ",size=(20,1)), sg.Input(key = 'a',size=(20,1))],
+        [sg.Text("Entre com o valor de b: ",size=(20,1)), sg.Input(key = 'b',size=(20,1))],
+        [sg.Text("Entre com erro permitido(E): ",size=(20,1)), sg.Input(key = 'e',size=(20,1))],
+        [sg.Column([[sg.Button('calcular')]], justification='center')], 
+        [sg.Text('', key='result', size=(40, 1))]
+    ]
+    janela = sg.Window('Calculate by iteraction', layout)
+
+    while True:
+        events, values = janela.read()
+        if events == sg.WINDOW_CLOSED:
+            break
+        if events == 'calcular':
+            function_str = values['function_str']
+            a = float(values['a'])
+            b = float(values['b'])
+            e = values['e']
+            final_result = iteraction(function_str, a, b, e)
+            janela['result'].update(final_result)
