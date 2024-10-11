@@ -7,7 +7,7 @@ from robocorp.tasks import task
 
 @task
 def main():
-    solveEquation.interface()
+    solveEquation.inputs()
 
 if __name__ == "__main__":
     main()
