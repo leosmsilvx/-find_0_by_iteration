@@ -67,7 +67,10 @@ def iteraction(function_str, a, b, e) -> None:
         if expected_error > abs(b-a):
             break
 
-    with open('csv_iteractions.csv', mode='w', newline='') as file:
+    save_to_csv(csv_filename, data) # CHAMANDO A NOVA FUNÇÂO UTILIZANDO A VARIAVEL QUE ESTAVA EM DESUSO
+
+def save_to_csv(filename, data): #CRIAÇÂO DA FUNÇÂO QUE GERA O ARQUIVO
+    with open(filename, mode='w', newline='') as file:
         writer = csv.writer(file, delimiter=';')
         writer.writerow(["Iteraction", "a", "b", "xi"])
         writer.writerows(data)
